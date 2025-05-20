@@ -17,13 +17,6 @@ pip install transformers faiss-cpu langchain langchain-huggingface sentence-tran
 python mini_rag.py
 ```
 
-3. По умолчанию будут выполнены три демонстрационных запроса. Для своих запросов модифицируйте код:
-
-```python
-if __name__ == "__main__":
-    ask_bot("Ваш вопрос здесь")
-```
-
 ## Как это работает
 
 1. Текст разбивается на разделы по заголовкам
